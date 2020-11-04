@@ -1,0 +1,110 @@
+.checkbox label span {
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.checkbox.tos-link label span {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.radio label span {
+    text-transform: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.breadcrumb > li:first-child + li:before {
+    content: "";
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+}
+
+.table td img {
+    max-width: 70px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 70px;
+    max-height: 300px;
+}
+
+.textarea-small {
+    height: 50px !important;
+}
+
+.textarea-medium {
+    min-height: 100px !important;
+    max-height: 2;
+}
+
+.textarea-big {
+    height: 150px !important;
+}
+
+.textarea-vast {
+    height: 200px !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #1dbfe0 !important;
+    border-color: #1dbfe0;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #777;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel {
+    border-radius: 0px;
+}
+
+.panel.has-error {
+    border: 1px solid red;
+    box-shadow: 0 0 15px rgba(215, 0, 0, 0.2);
+}
+
+.panel-heading {
+    padding: 5px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #1dbfe0;
+    color: #fff;
+}

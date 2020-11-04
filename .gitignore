@@ -1,0 +1,7 @@
+app_settings.php
+application/logs/
+application/sessions
+files/
+sessions/
+vendor/
+user_guide

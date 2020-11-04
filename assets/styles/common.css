@@ -1,0 +1,23 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.text-tiny {
+    font-size: 0.5rem;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
