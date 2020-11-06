@@ -55,7 +55,7 @@ class CI_Email
             $this->content
         );
 
-        $this->grid = new \SendGrid(BL_SENDGRID_API_KEY);
+        $this->grid = new \SendGrid(__app_email_api_key);
 
         $response = $this->grid->client->mail()->send()->post($this->email);
         log_message('info', 'CI_Email:response='.json_encode($response));
